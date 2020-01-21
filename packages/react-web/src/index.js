@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-import App from '@reactnativemonorepo/core/components/App'
+import App from '@reactnativemonorepo/core/src/App'
 
 import * as serviceWorker from './serviceWorker';
 
