@@ -1,0 +1,13 @@
+{
+    "name": "reactnativemonorepo",
+    "license": "MIT",
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "packages/*"
+        ]
+    },
+    "dependencies": {
+        "react-native": "0.61.5"
+    }
+}
