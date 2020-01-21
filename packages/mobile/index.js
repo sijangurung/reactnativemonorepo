@@ -3,7 +3,9 @@
  */
 
 import { AppRegistry } from 'react-native';
-import App from '@reactnativemonorepo/core/src/App';
+
+import App from '@reactnativemonorepo/core/components/App';
+
 import { name as appName } from './app.json';
 
 AppRegistry.registerComponent(appName, () => App);

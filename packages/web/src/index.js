@@ -1,6 +1,6 @@
 import { AppRegistry } from 'react-native'
 
-import App from '@reactnativemonorepo/core/src/App'
+import App from '@reactnativemonorepo/core/components/App'
 
 AppRegistry.registerComponent('myprojectname', () => App)
 AppRegistry.runApplication('myprojectname', {

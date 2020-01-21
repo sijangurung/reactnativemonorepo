@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native'
 
 export function AppHeader() {
     return <View style={styles.container}>
-        <Text style={styles.text}>Welcome to React Native Web + Monorepo</Text>
+        <Text style={styles.text}>Welcome to React Web + Monorepo</Text>
     </View>
 }
 
