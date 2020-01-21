@@ -38,6 +38,9 @@ const App: () => React$Node = () => {
               <Text style={styles.footer}>Engine: Hermes</Text>
             </View>
           )}
+          <View style={{ backgroundColor: 'red' }}>
+            <Text style={{ fontSize: 20 }}>Testing Monorepo hot reloading...</Text>
+          </View>
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Step One</Text>
