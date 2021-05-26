@@ -2,6 +2,14 @@
     "name": "reactnativemonorepo",
     "license": "MIT",
     "private": true,
+    "scripts": {
+        "mobile:pods": "cd packages/mobile/ios && pod install",
+        "mobile:start": "yarn workspace mobile start",
+        "mobile:android": "studio packages/mobile/android/",
+        "mobile:ios": "open packages/mobile/ios/mobile.xcworkspace",
+        "web:start": "yarn workspace web start",
+        "reactweb:start": "yarn workspace react-web start"
+    },
     "workspaces": {
         "packages": [
             "packages/*"
